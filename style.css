@@ -36,3 +36,13 @@ h1 {
     border-radius: 10px;
     background: white;
 }
+
+
+.main img {
+  width: 80%;
+  background-size: contain;
+}
+
+.main h2 {
+  margin: 10px;
+}
