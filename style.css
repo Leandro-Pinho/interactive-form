@@ -2,9 +2,37 @@
   margin: 0;
   padding: 0;
   box-sizing: none;
+  font-family: 'Inter', Times, sans-serif;
+}
+
+:root {
+    --text-background: #242e2d;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: auto;
+  height: 100vh;
+
+  background: linear-gradient(120deg, #48f4ee, #197dc4);
 }
 
 
-body {
-    background: linear-gradient(120deg, #48f4ee, #197dc4);
+h1 {
+    text-transform: uppercase;
+    color: var(--text-background);
+    margin-bottom: 10px;
+}
+
+
+#card {
+    width: 750px;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+    background: white;
 }
