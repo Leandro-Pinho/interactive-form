@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
+}
+
+
+body {
+    background: linear-gradient(120deg, #48f4ee, #197dc4);
+}
