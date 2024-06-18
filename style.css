@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: none;
-  font-family: 'Inter', Times, sans-serif;
+  font-family: "Inter", Times, sans-serif;
 }
 
 :root {
-    --text-background: #242e2d;
+  --text-background: #242e2d;
 }
 
 body {
@@ -21,22 +21,24 @@ body {
   background: linear-gradient(120deg, #48f4ee, #197dc4);
 }
 
-
 h1 {
-    text-transform: uppercase;
-    color: var(--text-background);
-    margin-bottom: 10px;
+  text-transform: uppercase;
+  color: var(--text-background);
+  margin-bottom: 10px;
 }
-
 
 #card {
-    width: 750px;
-    height: 500px;
-    border: none;
-    border-radius: 10px;
-    background: white;
+  width: 750px;
+  height: 500px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  overflow: hidden;
 }
 
+.main {
+  display: block;
+}
 
 .main img {
   width: 80%;
@@ -45,4 +47,41 @@ h1 {
 
 .main h2 {
   margin: 10px;
+}
+
+#first {
+  display: none;
+}
+
+#second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  row-gap: 20px;
+}
+
+#second .button {
+  display: flex;
+  gap: 15px;
+}
+
+#second .button button {
+  padding: 10px 18px;
+  border-radius: 5px;
+  border: none;
+  background: #479ad4;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+  transition: all 0.5s;
+}
+
+#second button:hover {
+  background: #48f4ee;
+  color: white;
 }
