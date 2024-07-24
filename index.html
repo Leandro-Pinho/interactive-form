@@ -10,43 +10,52 @@
     <h1>Formulário Interativo</h1>
 
     <div id="card">
-      <section class="main" id="one">
-        <h2>Ola, vamos conversar!</h2>
+      <section class="tab-links active-link" id="one">
+        <h2 onclick="opentab('two')">Ola, vamos conversar!</h2>
 
         <img src="./image/Checklist.jpg" alt="imagem Formulario" />
       </section>
 
-      <section class="main" id="two">
+      <section id="two" class="tab-links " >
         <h2>Qual é a sua profissão?</h2>
 
         <div class="button">
-          <button>WEB</button>
+          <button onclick="opentab('three')">WEB</button>
           <button>MOBILE</button>
         </div>
-        
       </section>
 
-      <section id="three">
+      <section class="tab-links" id="three">
         <h2>Qual área deseja atuar?</h2>
 
         <div class="button">
           <button>Front-end</button>
-          <button>Back-end</button>
+          <button onclick="opentab('four')">Back-end</button>
         </div>
-        
       </section>
 
-      <section id="four">
+      <section class="tab-links" id="four">
         <h2>Qual vantage voce deseja aprender com back-end?</h2>
 
         <div class="button">
-          <button> C / C++ </button>
-          <button> Rust </button>
-          <button> Go </button>
+          <button>Rapidez</button>
+          <button>Programação intuitiva</button>
+          <button>Fácil integração</button>
         </div>
-        
+
+        <section id="fourOne">
+          <h2>
+            Ótima escolha, essas são as 3 melhores linguagens de acordo com a
+            vantagem escolhida:
+          </h2>
+
+          <div class="button">
+            <button>C / C ++</button>
+            <button>Rust</button>
+            <button>Go</button>
+          </div>
+        </section>
       </section>
-      
     </div>
 
     <script src="script.js"></script>
