@@ -10,13 +10,13 @@
     <h1>Formulário Interativo</h1>
 
     <div id="card">
-      <section class="tab-links active-link" id="one">
+      <section class="tab-links active-link" id="one" onclick="opentab('two')">
         <h2 onclick="opentab('two')">Ola, vamos conversar!</h2>
 
         <img src="./image/Checklist.jpg" alt="imagem Formulario" />
       </section>
 
-      <section id="two" class="tab-links " >
+      <section id="two" class="tab-links">
         <h2>Qual é a sua profissão?</h2>
 
         <div class="button">
@@ -29,21 +29,70 @@
         <h2>Qual área deseja atuar?</h2>
 
         <div class="button">
-          <button>Front-end</button>
+          <button onclick="opentab('five')">Front-end</button>
           <button onclick="opentab('four')">Back-end</button>
         </div>
+      </section>
+
+      <section class="tab-links" id="five">
+        <h2>Qual vantage voce deseja aprender com front-end?</h2>
+
+        <div class="button">
+          <button onmouseover="openCL('fiveOne')">Varias bibliotecas</button>
+          <button onmouseover="openCL('fiveTwo')">Fácil compreensão</button>
+          <button onmouseover="openCL('fiveThree')">Maior comunidade</button>
+        </div>
+
+        <section id="fiveOne" class="tab-contents active-tab">
+          <h2>
+            Ótima escolha, essas são as 3 melhores linguagens de acordo com a
+            vantagem escolhida:
+          </h2>
+
+          <div class="button">
+            <button>react</button>
+            <button>Vue</button>
+            <button>Angula</button>
+          </div>
+        </section>
+
+        <section id="fiveTwo" class="tab-contents">
+          <h2>
+            Ótima escolha, essas são as 3 melhores linguagens de acordo com a
+            vantagem escolhida:
+          </h2>
+
+          <div class="button">
+            <button>Python</button>
+            <button>Javascript</button>
+            <button>Typescript</button>
+          </div>
+        </section>
+
+        <section id="fiveThree" class="tab-contents">
+          <h2>
+            Ótima escolha, essas são as 3 melhores linguagens de acordo com a
+            vantagem escolhida:
+          </h2>
+
+          <div class="button">
+            <button>Python</button>
+            <button>Javascript</button>
+            <button>React</button>
+          </div>
+        </section>
       </section>
 
       <section class="tab-links" id="four">
         <h2>Qual vantage voce deseja aprender com back-end?</h2>
 
         <div class="button">
-          <button>Rapidez</button>
-          <button>Programação intuitiva</button>
-          <button>Fácil integração</button>
+          <button onmouseover="openCL('fourOne')">Rapidez</button>
+          <button onmouseover="openCL('fourTwo')">Programação intuitiva</button>
+          <button onmouseover="openCL('fourThree')">Fácil integração</button>
         </div>
 
-        <section id="fourOne">
+        <section id="fourOne" class="tab-contents active-tab">
           <h2>
             Ótima escolha, essas são as 3 melhores linguagens de acordo com a
             vantagem escolhida:
@@ -53,6 +102,32 @@
             <button>C / C ++</button>
             <button>Rust</button>
             <button>Go</button>
+          </div>
+        </section>
+
+        <section id="fourTwo" class="tab-contents">
+          <h2>
+            Ótima escolha, essas são as 3 melhores linguagens de acordo com a
+            vantagem escolhida:
+          </h2>
+
+          <div class="button">
+            <button>Python</button>
+            <button>Javascript</button>
+            <button>Scratch</button>
+          </div>
+        </section>
+
+        <section id="fourThree" class="tab-contents">
+          <h2>
+            Ótima escolha, essas são as 3 melhores linguagens de acordo com a
+            vantagem escolhida:
+          </h2>
+
+          <div class="button">
+            <button>Python</button>
+            <button>Javascript</button>
+            <button>Java</button>
           </div>
         </section>
       </section>

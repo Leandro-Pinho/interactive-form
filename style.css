@@ -45,13 +45,29 @@ h1 {
   display: flex;
 }
 
+.tab-contents {
+  display: none;
+}
+
+.tab-contents.active-tab {
+  display: flex;
+}
+
+#one {
+  flex-direction: column;
+  align-items: center;
+}
+
 #one img {
-  width: 80%;
+  width: 70%;
+ 
   background-size: contain;
 }
 
 #one h2 {
   margin: 10px;
+  z-index: 10;
+  cursor: pointer;
 }
 
 #two {
@@ -152,7 +168,6 @@ h1 {
 }
 
 #fourOne {
-  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -180,11 +195,156 @@ h1 {
   font-weight: bold;
   letter-spacing: 1px;
   cursor: pointer;
-
+  
   transition: all 0.5s;
 }
 
 #fourOne button:hover {
+  background: #48f4ee;
+  color: white;
+}
+
+#fourTwo {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  row-gap: 20px;
+  z-index: 100;
+}
+
+#fourTwo h2 {
+  font-size: 16px;
+}
+
+#fourTwo .button {
+  display: flex;
+  gap: 15px;
+}
+
+#fourTwo .button button {
+  padding: 10px 18px;
+  border-radius: 5px;
+  border: none;
+  background: #479ad4;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  
+  transition: all 0.5s;
+}
+
+#fourTwo button:hover {
+  background: #48f4ee;
+  color: white;
+}
+
+
+#fourThree {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  row-gap: 20px;
+  z-index: 100;
+}
+
+#fourThree h2 {
+  font-size: 16px;
+}
+
+#fourThree .button {
+  display: flex;
+  gap: 15px;
+}
+
+#fourThree .button button {
+  padding: 10px 18px;
+  border-radius: 5px;
+  border: none;
+  background: #479ad4;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  
+  transition: all 0.5s;
+}
+
+#fourThree button:hover {
+  background: #48f4ee;
+  color: white;
+}
+
+#five {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  row-gap: 20px;
+  z-index: 100;
+}
+
+#five .button {
+  display: flex;
+  gap: 15px;
+}
+
+#five .button button {
+  padding: 10px 18px;
+  border-radius: 5px;
+  border: none;
+  background: #479ad4;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+  transition: all 0.5s;
+}
+
+#five button:hover {
+  background: #48f4ee;
+  color: white;
+}
+
+.tab-contents {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  row-gap: 20px;
+  z-index: 100;
+}
+
+.tab-contents h2 {
+  font-size: 16px;
+}
+
+.tab-contents .button {
+  display: flex;
+  gap: 15px;
+}
+
+.tab-contents .button button {
+  padding: 10px 18px;
+  border-radius: 5px;
+  border: none;
+  background: #479ad4;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+  transition: all 0.5s;
+}
+
+.tab-contents button:hover {
   background: #48f4ee;
   color: white;
 }
