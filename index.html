@@ -11,7 +11,7 @@
 
     <div id="card">
       <section class="tab-links active-link" id="one" onclick="opentab('two')">
-        <h2 onclick="opentab('two')">Ola, vamos conversar!</h2>
+        <h2 onclick="opentab('two')">Ola, clique pra começar!</h2>
 
         <img src="./image/Checklist.jpg" alt="imagem Formulario" />
       </section>
@@ -21,10 +21,11 @@
 
         <div class="button">
           <button onclick="opentab('three')">WEB</button>
-          <button>MOBILE</button>
+          <button onclick="opentab('six')">MOBILE</button>
         </div>
       </section>
 
+      <!-- opçoes para web -->
       <section class="tab-links" id="three">
         <h2>Qual área deseja atuar?</h2>
 
@@ -119,6 +120,114 @@
         </section>
 
         <section id="fourThree" class="tab-contents">
+          <h2>
+            Ótima escolha, essas são as 3 melhores linguagens de acordo com a
+            vantagem escolhida:
+          </h2>
+
+          <div class="button">
+            <button>Python</button>
+            <button>Javascript</button>
+            <button>Java</button>
+          </div>
+        </section>
+      </section>
+
+       <!-- opçoes para mobile -->
+       <section class="tab-links" id="six">
+        <h2>Qual área deseja atuar?</h2>
+
+        <div class="button">
+          <button onclick="opentab('seven')">Front-end</button>
+          <button onclick="opentab('eight')">Back-end</button>
+        </div>
+      </section>
+
+      <section class="tab-links" id='seven'>
+        <h2>Qual vantage voce deseja aprender com front-end?</h2>
+
+        <div class="button">
+          <button onmouseover="openCL('sevenOne')">Varias bibliotecas</button>
+          <button onmouseover="openCL('sevenTwo')">Fácil compreensão</button>
+          <button onmouseover="openCL('sevenThree')">Maior comunidade</button>
+        </div>
+
+        <section id="sevenOne" class="tab-contents active-tab">
+          <h2>
+            Ótima escolha, essas são as 3 melhores linguagens de acordo com a
+            vantagem escolhida:
+          </h2>
+
+          <div class="button">
+            <button>react</button>
+            <button>Vue</button>
+            <button>Angula</button>
+          </div>
+        </section>
+
+        <section id="sevenTwo" class="tab-contents">
+          <h2>
+            Ótima escolha, essas são as 3 melhores linguagens de acordo com a
+            vantagem escolhida:
+          </h2>
+
+          <div class="button">
+            <button>Python</button>
+            <button>Javascript</button>
+            <button>Typescript</button>
+          </div>
+        </section>
+
+        <section id="sevenThree" class="tab-contents">
+          <h2>
+            Ótima escolha, essas são as 3 melhores linguagens de acordo com a
+            vantagem escolhida:
+          </h2>
+
+          <div class="button">
+            <button>Python</button>
+            <button>Javascript</button>
+            <button>React</button>
+          </div>
+        </section>
+      </section>
+
+      <section class="tab-links" id="eight">
+        <h2>Qual vantage voce deseja aprender com back-end?</h2>
+
+        <div class="button">
+          <button onmouseover="openCL('eightOne')">Rapidez</button>
+          <button onmouseover="openCL('eightTwo')">Programação intuitiva</button>
+          <button onmouseover="openCL('eightThree')">Fácil integração</button>
+        </div>
+
+        <section id="eightOne" class="tab-contents active-tab">
+          <h2>
+            Ótima escolha, essas são as 3 melhores linguagens de acordo com a
+            vantagem escolhida:
+          </h2>
+
+          <div class="button">
+            <button>C / C ++</button>
+            <button>Rust</button>
+            <button>Go</button>
+          </div>
+        </section>
+
+        <section id="eightTwo" class="tab-contents">
+          <h2>
+            Ótima escolha, essas são as 3 melhores linguagens de acordo com a
+            vantagem escolhida:
+          </h2>
+
+          <div class="button">
+            <button>Python</button>
+            <button>Javascript</button>
+            <button>Scratch</button>
+          </div>
+        </section>
+
+        <section id="eightThree" class="tab-contents">
           <h2>
             Ótima escolha, essas são as 3 melhores linguagens de acordo com a
             vantagem escolhida:
