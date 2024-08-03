@@ -11,14 +11,6 @@ function opentab(tabname) {
   
 }
 
-function openCL(tabname) {
-  for (tabcontent of tabcontents) {
-    tabcontent.classList.remove("active-tab");
-  }
-
-  document.getElementById(tabname).classList.add("active-tab");
-}
-
 const sections = document.getElementsByClassName("my-section");
 
 function openCL1(tabname) {

@@ -115,47 +115,9 @@ button:hover {
   justify-content: center;
   align-items: center;
   height: 100%;
+  margin-top: -20px;
   row-gap: 20px;
   z-index: 100;
-}
-
-#fourOne {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-  row-gap: 20px;
-  z-index: 100;
-}
-
-#fourOne h2 {
-  font-size: 16px;
-}
-
-#fourTwo {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-  row-gap: 20px;
-  z-index: 100;
-}
-
-#fourTwo h2 {
-  font-size: 16px;
-}
-
-#fourThree {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-  row-gap: 20px;
-  z-index: 100;
-}
-
-#fourThree h2 {
-  font-size: 16px;
 }
 
 #five {
@@ -163,6 +125,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   height: 100%;
+  margin-top: -40px;
   row-gap: 20px;
   z-index: 100;
 }
@@ -179,6 +142,7 @@ button:hover {
 
 .my-section h2 {
   font-size: 16px;
+  margin-bottom: 15px;
 }
 
 
@@ -209,6 +173,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   height: 100%;
+  margin-top: -50px;
   row-gap: 20px;
   z-index: 100;
 }
